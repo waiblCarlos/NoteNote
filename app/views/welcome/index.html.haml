@@ -1,1 +1,32 @@
-%h1 This si the welcome placeholder
+#banner
+	.banner_content
+		%h1 NoteNote
+		%p Your online notebook. Never forget an idea again.
+		%button= link_to "Sign Up", new_user_registration_path
+
+#testimonial
+	.wrapper
+		%p.quote "The greates notebook application. Period."
+		%p.name - Carlos Waibl
+
+#callouts
+	.callout_inner
+		.wrapper
+			.callout
+				%h2 Notes
+				%p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti mollitia culpa hic quam facere dolorum optio in nemo, sint officia perspiciatis? Maxime dolorum sequi culpa nihil earum sapiente, error, debitis quae asperiores unde facilis, quia laudantium illo. Facilis quos officiis, similique, praesentium suscipit aut quis, assumenda itaque animi reprehenderit ad.
+			.callout
+				%h2 Rocket
+				%p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti mollitia culpa hic quam facere dolorum optio in nemo, sint officia perspiciatis? Maxime dolorum sequi culpa nihil earum sapiente, error, debitis quae asperiores unde facilis, quia laudantium illo. Facilis quos officiis, similique, praesentium suscipit aut quis, assumenda itaque animi reprehenderit ad.
+			.callout
+				%h2 Lightning
+				%p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti mollitia culpa hic quam facere dolorum optio in nemo, sint officia perspiciatis? Maxime dolorum sequi culpa nihil earum sapiente, error, debitis quae asperiores unde facilis, quia laudantium illo. Facilis quos officiis, similique, praesentium suscipit aut quis, assumenda itaque animi reprehenderit ad.
+
+#bottom_cta
+	.wrapper
+		%h2 For Realz!
+		%p I want you to sign up... 
+		%button= link_to "Click Mee!!", new_user_registration_path
+
+%footer
+	%p &copy Carlos Waibl
